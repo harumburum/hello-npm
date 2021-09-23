@@ -6,4 +6,5 @@ Releasing minor version
 
 Releasing fix version
 
-Release minor
+Testing pull request
+

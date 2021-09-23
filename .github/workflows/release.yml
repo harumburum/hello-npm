@@ -38,7 +38,7 @@ jobs:
           npm install
       - name: Commit changes
         run: |
-          git add dist
+          git add -A
           git commit -am "Build new version" || true
           git status
       - name: Creating .npmrc file

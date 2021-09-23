@@ -36,7 +36,6 @@ jobs:
       - name: Building packages
         run: |
           npm install
-          npm run build:packages
       - name: Commit changes
         run: |
           git add dist

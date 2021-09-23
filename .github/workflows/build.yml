@@ -33,4 +33,4 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: echo Built!
+    - run: npm install
